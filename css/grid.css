@@ -1,0 +1,105 @@
+.center-box {
+    width: 1366px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.row {
+    margin-left: -20px;
+    margin-right: -20px;
+    clear: both;
+    overflow: hidden;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33.33%;
+}
+
+.two-third {
+    width: 66.66%;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.three-fourth {
+    width: 75%;
+}
+
+.one-sixth {
+    width: 16.66%;
+}
+
+.three-fifth {
+    width: 60%;
+}
+
+.two-fifth {
+    width: 40%;
+}
+
+.one-half,
+.one-third,
+.two-third,
+.one-fourth,
+.one-fourth,
+.one-sixth,
+.three-fifth,
+.two-fifth {
+    float: left;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.three-fourth {
+    float: right;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (max-width: 1350px) {
+    .center-box {
+        width: unset;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .row {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+    .one-half,
+    .two-third,
+    .one-fourth,
+    .three-fourth,
+    .one-sixth,
+    .three-fifth,
+    .two-fifth {
+        float: none;
+        clear: both;
+        width: 100%;
+        margin: 0 0 0 0;
+        padding-bottom: 70px;
+    }
+
+    .row {
+        margin: 0;
+    }
+
+    .one-third:last-of-type {
+        padding-bottom: 10px;
+    }
+
+    .one-third {
+        display: block !important;
+    }
+}
