@@ -877,15 +877,18 @@ footer a {
         content: unset;
         border-bottom: 5px solid red;
     }
-}
 
-@media only screen and (max-width: 500px) {
-    h1 {
-        font-size: 35px !important;
+    #portfolio h2,
+    #profession h2,
+    #testimonials h2,
+    #allmedia h2,
+    #contact h2,
+    h2 {
+        line-height: 1.3;
     }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 600px) {
     .button {
         align-items: unset;
         justify-content: unset;
@@ -916,7 +919,7 @@ footer a {
     }
 
     #profession h2 {
-        margin-bottom: 70px;
+        margin-bottom: 36px;
     }
 
     .professiontext {
@@ -1056,6 +1059,13 @@ footer a {
 
     #mail:before {
         margin-left: -34px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 35px !important;
     }
 }
 
