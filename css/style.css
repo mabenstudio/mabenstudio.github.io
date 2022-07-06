@@ -76,7 +76,7 @@ nav li a {
     text-align: center;
 }
 
-/* Kezőlapon kévő lefele mutató nyíl */
+/* Kezőlapon lévő lefele mutató nyíl */
 
 .dropscroll {
     position: absolute;
@@ -866,6 +866,16 @@ footer a {
 @media only screen and (max-width: 753px) {
     #top .center-box {
         padding: 0px 30px;
+    }
+
+    #portfolio h2::after,
+    #profession h2::after,
+    #testimonials h2::after,
+    #allmedia h2::after,
+    #contact h2::after,
+    h2::after  {
+        content: unset;
+        border-bottom: 5px solid red;
     }
 }
 
