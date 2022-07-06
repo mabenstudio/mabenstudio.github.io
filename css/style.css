@@ -348,7 +348,7 @@ button:after {
     background: #f0f0f0;
     padding-top: 65px;
     padding-bottom: 100px;
-    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #profession h2::after {
@@ -476,7 +476,7 @@ button:after {
     background: #f0f0f0;
     padding-top: 65px;
     padding-bottom: 38px;
-    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #testimonials h2::after {
@@ -624,7 +624,7 @@ button:after {
     background: #f0f0f0;
     padding-top: 65px;
     padding-bottom: 70px;
-    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    box-shadow: 0 10px 60px rgba(0, 0, 0, 0.25), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 #contact h2::after {
@@ -1023,10 +1023,6 @@ footer a {
         clear: unset;
     }
 
-    #allmedia {
-        padding-bottom: unset;
-    }
-
     #allmedia p {
         padding-bottom: 20px;
     }
@@ -1074,9 +1070,9 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 389px) {
-    #allmedia h2::after {
-        margin-top: -73px;
+@media only screen and (max-width: 398px) {
+    #allmedia h2 {
+        margin-bottom: 84px  !important;
     }
 }
 
