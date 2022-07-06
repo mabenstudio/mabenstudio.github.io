@@ -855,11 +855,45 @@ footer a {
     nav li a {
         margin-left: unset;
     }
+
+    .testimonial-style .carousel-inner > .item {
+        height: 400px;
+    }
 }
 
 @media only screen and (max-width: 900px) {
     .sticky #logo img {
         width: 190px;
+    }
+
+    #contact .one-half {
+        padding-left: unset;
+        padding-right: unset;
+        padding-bottom: unset;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #phone {
+        margin-right: unset
+    }
+
+    #mail {
+        margin-left: unset
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    #portfolio .one-third {
+        padding-left: unset;
+        padding-right: unset;
+        width: 100%;
+    }
+
+    #portfolio img {
+        margin-bottom: 60px
     }
 }
 
@@ -1073,6 +1107,26 @@ footer a {
 @media only screen and (max-width: 398px) {
     #allmedia h2 {
         margin-bottom: 84px  !important;
+    }
+
+    .testimonial-style .carousel-inner > .item {
+        height: 610px;
+    }
+}
+
+@media only screen and (max-width: 398px) {
+    #allmedia h2 {
+        margin-bottom: 84px  !important;
+    }
+
+    .testimonial-style .carousel-inner > .item {
+        height: 610px;
+    }
+}
+
+@media only screen and (max-width: 356px) {
+    .testimonial-style .carousel-inner > .item {
+        height: 730px;
     }
 }
 
