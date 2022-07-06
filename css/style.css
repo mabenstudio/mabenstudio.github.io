@@ -352,7 +352,7 @@ button:after {
 }
 
 #profession h2::after {
-    content: "Miben lehetek a segítségedre?";
+    content: "Mivel foglalkozom?";
 }
 
 #profession img {
@@ -432,6 +432,8 @@ button:after {
     width: 100%;
     height: 0;
     transition: 0.5s ease;
+    opacity: 70%;
+    margin-bottom: 22px;
 }
 
 .containerimage:hover .overlay {
@@ -859,10 +861,6 @@ footer a {
     h1 {
         font-size: 35px !important;
     }
-
-    #profession h2::after {
-        content: "";
-    }
 }
 
 @media only screen and (max-width: 430px) {
@@ -912,6 +910,10 @@ footer a {
 
     #portfolio .row {
         display: grid !important;
+    }
+
+    #profession h2::after {
+        margin-top: -118px;
     }
 
     #portfolio h2::after,
