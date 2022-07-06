@@ -894,6 +894,11 @@ footer a {
         justify-content: unset;
     }
 
+    .borderLine {
+        border-right: unset
+    }
+    
+
     #aboutme img {
         float: unset;
         margin-right: unset;
