@@ -75,7 +75,12 @@ nav li a {
 }
 
 #topdiv {
-    text-align: center;
+    margin: 0;
+    position: absolute;
+    bottom: 12%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 
 /* Kezőlapon lévő lefele mutató nyíl */
@@ -1163,10 +1168,7 @@ footer a {
     }
 
     .dropscroll {
-        position: unset;
-        bottom: unset;
-        left: unset;
-        transform: unset;
+        display: none;
     }
 
     #top-img h1 {
@@ -1193,6 +1195,10 @@ footer a {
 
     h1 {
         font-size: 32px !important;
+    }
+
+    #topdiv {
+        bottom: 3%;
     }
 }
 
