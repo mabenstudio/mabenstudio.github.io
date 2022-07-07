@@ -400,13 +400,11 @@ button:after {
     width: 100%;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     margin-bottom: 23px;
-    transition: transform 0.5s, filter 1.5s ease-in-out;
     filter: grayscale(100%);
 }
 
 #portfolio img:hover {
     filter: grayscale(0);
-    transform: scale(0.9);
 }
 
 #secrow {
@@ -924,6 +922,15 @@ footer a {
     #portfolio img {
         margin-bottom: 60px
     }
+
+    .containerimage:hover .overlay {
+        height: 91%;
+    }
+
+    .overlay {
+        width: 100%;
+        margin-bottom: 60px;
+    }
 }
 
 @media only screen and (max-width: 790px) {
@@ -1136,6 +1143,15 @@ footer a {
     #mail:before {
         margin-left: -34px;
     }
+
+    .containerimage:hover .overlay {
+        height: 85%;
+    }
+
+    .overlay {
+        width: 100%;
+        margin-bottom: 60px;
+    }
 }
 
 
@@ -1145,13 +1161,9 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 398px) {
-    #allmedia h2 {
-        margin-bottom: 84px  !important;
-    }
-
-    .testimonial-style .carousel-inner > .item {
-        height: 610px;
+@media only screen and (max-width: 470px) {
+    .containerimage:hover .overlay {
+        height: 80%;
     }
 }
 
@@ -1168,6 +1180,10 @@ footer a {
 @media only screen and (max-width: 356px) {
     .testimonial-style .carousel-inner > .item {
         height: 730px;
+    }
+
+    .containerimage:hover .overlay {
+        height: 75%;
     }
 }
 
