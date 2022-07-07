@@ -69,9 +69,9 @@ nav li a {
 #top-img h1 {
     text-align: center;
     padding-top: 100px;
-    line-height: 1.9;
-    -webkit-text-stroke: 0.7px black;
-    -webkit-text-fill-color:  #e1b983;
+    line-height: 2;
+    -webkit-text-stroke: 0.4px black;
+    -webkit-text-fill-color: #e1b983;
 }
 
 #topdiv {
@@ -1199,6 +1199,10 @@ footer a {
 
     #topdiv {
         bottom: 3%;
+    }
+
+    #top-img h1 {
+        padding-top: 52px;
     }
 }
 
