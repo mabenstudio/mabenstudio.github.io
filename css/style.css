@@ -70,6 +70,8 @@ nav li a {
     text-align: center;
     padding-top: 100px;
     line-height: 1.9;
+    -webkit-text-stroke: 0.7px black;
+    -webkit-text-fill-color:  #e1b983;
 }
 
 #topdiv {
@@ -1159,6 +1161,19 @@ footer a {
     h1 {
         font-size: 35px !important;
     }
+
+    .dropscroll {
+        position: unset;
+        bottom: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    #top-img h1 {
+        text-align: unset;
+        line-height: 1.4;
+        padding-left: 29px;
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -1174,6 +1189,10 @@ footer a {
 
     .testimonial-style .carousel-inner > .item {
         height: 610px;
+    }
+
+    h1 {
+        font-size: 32px !important;
     }
 }
 
