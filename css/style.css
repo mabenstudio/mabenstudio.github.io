@@ -767,6 +767,12 @@ footer a {
     color: #ffffff;
 }
 
+@media only screen and (max-width: 1152px) {
+    #profession .one-third {
+        width: 33%;
+    }
+}
+
 @media only screen and (max-width: 1072px) {
     .menu-btn {
         margin-top: 11px;
@@ -778,6 +784,12 @@ footer a {
         cursor: pointer;
         z-index: 2;
     }
+
+    #profession .one-third {
+        width: 40%;
+        margin-left: 70px;
+    }
+
     .menu-btn__burger {
         width: 40px;
         height: 4px;
@@ -883,6 +895,23 @@ footer a {
     #mail {
         margin-left: unset
     }
+
+    #aboutme img {
+        float: unset;
+        margin-right: unset;
+        width: 71%;
+        margin-left: unset;
+    }
+
+    #aboutme .one-half {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: unset;
+    }
+
+    #aboutmetext {
+        margin-top: 60px;
+    }
 }
 
 @media only screen and (max-width: 820px) {
@@ -894,6 +923,28 @@ footer a {
 
     #portfolio img {
         margin-bottom: 60px
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    #profession .one-third {
+        width: 100%;
+        margin-left: unset;
+    }
+
+    .borderLine {
+        border-right: unset
+    }
+
+    #profession .one-third h3 {
+        text-align: unset !important;
+    }
+
+    .professiontext {
+        margin-bottom: -23px !important;
+        text-align: unset;
+        padding-right: unset;
+        padding-left: unset;
     }
 }
 
@@ -932,12 +983,12 @@ footer a {
         border-right: unset
     }
     
-
     #aboutme img {
         float: unset;
         margin-right: unset;
         width: 100%;
         margin-bottom: 80px;
+        margin-left: unset;
     }
 
     #aboutme .one-half {
@@ -959,17 +1010,6 @@ footer a {
 
     #profession h2 {
         margin-bottom: 36px;
-    }
-
-    .professiontext {
-        margin-bottom: -23px !important;
-        text-align: unset;
-        padding-right: unset;
-        padding-left: unset;
-    }
-
-    #profession .one-third h3 {
-        text-align: unset !important;
     }
 
     #portfolio .row {
@@ -1072,6 +1112,7 @@ footer a {
         display: flex;
         align-items: center;
         justify-content: center;
+        padding-bottom: 70px;
     }
 
     #contact button {
