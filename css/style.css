@@ -885,6 +885,7 @@ footer a {
         box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
     }
 
+
     .menu-btn-open nav ul {
         display: grid !important;
         text-align: center;
@@ -909,6 +910,12 @@ footer a {
     #top-img img {
         width: 190px;
     }
+
+    nav li {
+        text-align: center !important;
+        float: unset;
+    }
+
     nav li a {
         margin-left: unset;
     }
@@ -995,8 +1002,6 @@ footer a {
     }
 
     #additionaltext h1 {
-        text-align: unset !important;
-        padding-left: 52px;
         font-size: 30px !important;
     }
 
@@ -1014,6 +1019,7 @@ footer a {
     #allmedia p, #contact p {
         text-align: unset;
     }
+    
 }
 
 @media only screen and (max-width: 753px) {
@@ -1291,6 +1297,28 @@ footer a {
 
     .containerimage:hover .overlay {
         height: 75%;
+    }
+}
+
+@media screen and (max-device-width: 1000px) and (orientation: landscape) {
+    .dropscroll{
+        display: none;
+    }
+
+    #topdiv {
+        display: none;
+    }
+    #top-text-bg {
+        background: rgba(255, 255, 255, 0.28);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+        backdrop-filter: blur(3.6px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        -webkit-backdrop-filter: blur(12.6px);
+        top: 57%;
+        width: 77%;
+        padding: 30px 15px 30px 15px;
+        font-size: 38px !important;
     }
 }
 

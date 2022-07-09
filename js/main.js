@@ -10,6 +10,10 @@ menuBtn.addEventListener("click", () => {
     }
 });
 
+$("nav ul li a").on("click", function () {
+    $(".menu-btn").click();
+});
+
 $(document).ready(function () {
     // Go-to-top gomb
     $("body").append('<div id="go-to-top"></div>'); //gomb beillesztése
