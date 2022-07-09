@@ -347,6 +347,7 @@ h2::after {
 #aboutme img {
     float: right;
     margin-right: 93px;
+    width: 66%;
 }
 
 #aboutme p {

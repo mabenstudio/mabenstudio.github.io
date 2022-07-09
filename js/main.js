@@ -11,7 +11,7 @@ menuBtn.addEventListener("click", () => {
 });
 
 $("nav ul li a").on("click", function () {
-    $(".menu-btn").click();
+    $(".menu-btn.open").click();
 });
 
 $(document).ready(function () {
