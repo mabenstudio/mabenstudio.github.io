@@ -5,6 +5,7 @@
 	<link type="text/css" rel="stylesheet" href="css/reset.css">
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <link type="text/css" rel="stylesheet" href="css/grid.css">
+    <link type="text/css" rel="stylesheet" href="css/lightbox.css">
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <!-- Fonts links -->
@@ -81,11 +82,8 @@
                 </div>
                 <div class="one-half">
                     <div id="aboutmetext">
-                        <p>Szia! Radványi Bencének hívnak. Nagyon régóta foglalkozom fotózással, egészen kezdő gimis korom óta. Kezdetben csak hobbi szinten készítettem a családi eseményekről, tájakról, állatokról képeket, de nagyon hamar tudatosult bennem, hogy ez lesz a szakmám. Ez 2019 tavaszán teljesült, azóta minden szabad percemet a magam fejlesztésével, és kreatív fotózással töltöm. Kedvenc témáim között szerepelnek az eskülők, a rendezvények, és persze a portrék. </p>
+                        <p>Szia! Radványi Bencének hívnak. Nagyon régóta foglalkozom fotózással, egészen kezdő gimis korom óta. Kezdetben csak hobbi szinten készítettem a családi eseményekről, tájakról, állatokról képeket, de nagyon hamar tudatosult bennem, hogy ez lesz a szakmám. Ez 2019 tavaszán teljesült, azóta minden szabad percemet a magam fejlesztésével, és kreatív fotózással töltöm. Kedvenc témáim között szerepelnek az esküvők, a rendezvények, és persze a portrék. </p>
                     </div>
-                </div>
-                    <button><a>Tovább</a></button>
-                </div>
             </div>
         </div>
     </section>
@@ -106,7 +104,7 @@
                 <div class="one-third">
                     <img src="img/vectors/events.svg" alt=""/>
                     <h3>Rendezvény fotózás</h3>
-                    <p class="professiontext">Céges rendezvények, összejövetelek, vagy akár koncertek élményeinek megörökítése is egy célom. Egy nosztalgia során biztosra veszem, hogy elragadják az embert az örömteli pillanatok. </p>
+                    <p class="professiontext">Céges rendezvények, összejövetelek, vagy akár koncertek élményeinek megörökítése is célom. Egy nosztalgiázás során biztosra veszem, hogy elragadják az embert az örömteli pillanatok. </p>
                 </div>
             </div>
         </div>
@@ -116,14 +114,17 @@
             <h2>Eddigi munkáim</h2>
             <div id="portfoliotext">
             </div>
-                       
                 <div class="row">
                     <div class="one-third">
-                        <div class="containerimage"> 
-                            <img src="img/portfolio1.jpg" alt=""/>
-                            <div class="overlay">
-                                <div class="text">Esküvők</div>
-                            </div>
+                        <div class="containerimage">
+                            <a href="img/portfolio1.jpg" data-lightbox="models" data-title="Esküvők">
+                                <a href="img/portfolio2.jpg" data-lightbox="models" data-title="Esküvők">
+                                    <img src="img/portfolio1.jpg" alt=""/>
+                                    <div class="overlay">
+                                        <div class="text">Esküvők</div>
+                                    </div>
+                                </a>
+                             </a>
                         </div>
                     </div>
                     <div class="one-third">
@@ -169,9 +170,6 @@
                         </div>
                     </div>
                 </div>
-            <div class="button">
-                <button><a>Tovább</a></button>
-            </div>
         </div>
     </section>
     <section id="testimonials">
@@ -226,7 +224,7 @@
     <section id="contact">
         <div class="center-box">
             <h2>Kapcsolat</h2>
-            <p>Amennyiben elnyertem a tetszésed, és színesen dolgoznál velem, illetve ha bármilyen kérdésed van a fotózással kapcsolatban, esetleg érdeklődnél bővebben a csomagjaim iránt, az alábbi címeken bármikor elérsz:</p>
+            <p>Amennyiben elnyertem a tetszésed, és szívesen dolgoznál velem, illetve ha bármilyen kérdésed van a fotózással kapcsolatban, esetleg érdeklődnél bővebben a csomagjaim iránt, az alábbi címeken bármikor elérsz:</p>
             <div class="one-half">
                 <a href="tel:+36-20-571-5520"><button id="phone">+36-20-571-5520</button></a>
             </div>
@@ -243,5 +241,6 @@
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
 </body>
 </html>
