@@ -816,6 +816,13 @@ footer a {
     #profession .one-third {
         width: 33%;
     }
+
+    #aboutme img {
+        float: right;
+        margin-right: 93px;
+        width: 303px; 
+        margin-top: 51px;
+    }
 }
 
 @media only screen and (max-width: 1072px) {
