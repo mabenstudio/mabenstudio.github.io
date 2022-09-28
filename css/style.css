@@ -985,9 +985,10 @@ footer a {
         margin-bottom: 60px
     }
 
-    .containerimage:hover .overlay {
+    /*Ha szeretnél beúszási hoovert a porfólióknál: */
+    /*.containerimage:hover .overlay {
         height: 91%;
-    }
+    }*/
 
     .overlay {
         width: 100%;
@@ -1223,9 +1224,10 @@ footer a {
         margin-left: -34px;
     }
 
-    .containerimage:hover .overlay {
+    /*Ha szeretnél beúszási hoovert a porfólióknál: */
+    /*.containerimage:hover .overlay {
         height: 85%;
-    }
+    }*/
 
     .overlay {
         width: 100%;
@@ -1270,11 +1272,12 @@ footer a {
     }
 }
 
-@media only screen and (max-width: 470px) {
+/*Ha szeretnél beúszási hoovert a porfólióknál: */
+/*@media only screen and (max-width: 470px) {
     .containerimage:hover .overlay {
         height: 80%;
     }
-}
+}*/
 
 @media only screen and (max-width: 398px) {
     #allmedia h2 {
@@ -1303,9 +1306,10 @@ footer a {
         height: 730px;
     }
 
-    .containerimage:hover .overlay {
+    /*Ha szeretnél beúszási hoovert a porfólióknál: */
+    /*.containerimage:hover .overlay {
         height: 75%;
-    }
+    }*/
 }
 
 @media screen and (max-device-width: 1000px) and (orientation: landscape) {
